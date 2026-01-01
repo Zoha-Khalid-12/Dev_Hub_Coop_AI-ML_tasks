@@ -1,0 +1,39 @@
+# ----------------------------
+# Secrets (NEVER upload)
+# ----------------------------
+kaggle.json
+*.env
+
+# ----------------------------
+# Datasets (usually large / not allowed to redistribute)
+# If you later create a data folder, this will keep it out of GitHub
+# ----------------------------
+data/
+*.csv
+
+# ----------------------------
+# Saved models (optional)
+# If you save .joblib / .pkl locally, these won't be committed
+# ----------------------------
+models/
+*.joblib
+*.pkl
+
+# ----------------------------
+# Jupyter / Colab artifacts
+# ----------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ----------------------------
+# Python cache
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+
+# ----------------------------
+# OS junk files
+# ----------------------------
+.DS_Store
+Thumbs.db
