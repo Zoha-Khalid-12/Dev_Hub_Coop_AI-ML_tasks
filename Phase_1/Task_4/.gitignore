@@ -1,0 +1,33 @@
+# ---- Colab / Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ---- Environment / local runs (optional) ----
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# ---- Hugging Face / Transformers caches (if created locally) ----
+.cache/
+huggingface/
+hf_cache/
+transformers_cache/
+
+# ---- Model outputs / logs ----
+outputs/
+checkpoints/
+*.log
+
+# ---- OS / IDE ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
