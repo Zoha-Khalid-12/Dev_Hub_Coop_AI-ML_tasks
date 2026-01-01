@@ -50,6 +50,10 @@ Additionally:
 ---
 
 ## Project Structure
-task3/
-│── Task3_Heart_Disease_Prediction.ipynb
+Task_3/
+│── notebooks/
+│   └── Task_3.ipynb
+│── model/
+│   └── heart_disease_model.joblib
 │── README.md
+│── .gitignore
