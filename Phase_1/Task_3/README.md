@@ -50,11 +50,12 @@ Additionally:
 ---
 
 ## Project Structure
+```text
 Task_3/
-│── notebooks/
+├── notebooks/
 │   └── Task_3.ipynb
-│── model/
+├── model/
 │   └── heart_disease_model.joblib
-│── README.md
-│── .gitignore
-|── requirements.txt
+├── README.md
+├── .gitignore
+└── requirements.txt
