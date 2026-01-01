@@ -57,3 +57,4 @@ Task_3/
 │   └── heart_disease_model.joblib
 │── README.md
 │── .gitignore
+|── requirements.txt
